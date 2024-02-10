@@ -60,7 +60,7 @@ public class menuManager {
 
             } else if (userInput == 2) {
                 System.out.println("Average: " + arrayMethods.findAverage(numberArray));
-                System.out.println("Deviations " + arrayMethods.findDeviations(numberArray));
+                System.out.println("Deviations " + arrayMethods.getDeviationString(numberArray));
 
             } else if (userInput == 3){
                 System.out.println("Sum of even indices: " + arrayMethods.findSumOfEven(numberArray));
